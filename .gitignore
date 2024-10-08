@@ -1,0 +1,22 @@
+# 忽略 task1 目录下的特定文件
+HW1/task1/test_data_2.json
+HW1/task1/test_data.json
+
+# 忽略 task2 目录下的所有 .pth 文件和特定的文本文件
+HW1/task2/*.pth
+HW1/task2/dev.txt
+HW1/task2/test.txt
+HW1/task2/train.txt
+HW1/task2/train_data.json
+
+# 忽略 task3 目录下的所有 .pth 文件、json 文件和文本文件
+HW1/task3/**/*.pth
+HW1/task3/**/*.json
+HW1/task3/**/*.txt
+
+# 忽略 JapaneseWordSimilarityDataset 和 ws353simrel.tar.gz
+HW1/task3/JapaneseWordSimilarityDataset
+HW1/task3/ws353simrel.tar.gz
+
+# 忽略 code_on_server 目录下的所有 wandb 文件夹
+HW1/task3/code_on_server/**/wandb
