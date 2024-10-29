@@ -1,8 +1,0 @@
-{"time":"2024-10-29T10:46:47.930246662+08:00","level":"INFO","msg":"using version","core version":"0.18.5"}
-{"time":"2024-10-29T10:46:47.930269598+08:00","level":"INFO","msg":"created symlink","path":"/root/HW2/task2/wandb/run-20241029_104647-u0zde96r/logs/debug-core.log"}
-{"time":"2024-10-29T10:46:48.048464852+08:00","level":"INFO","msg":"created new stream","id":"u0zde96r"}
-{"time":"2024-10-29T10:46:48.048544619+08:00","level":"INFO","msg":"stream: started","id":"u0zde96r"}
-{"time":"2024-10-29T10:46:48.048590681+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"u0zde96r"}}
-{"time":"2024-10-29T10:46:48.04873349+08:00","level":"INFO","msg":"sender: started","stream_id":"u0zde96r"}
-{"time":"2024-10-29T10:46:48.048796342+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"u0zde96r"}}
-{"time":"2024-10-29T10:46:49.019104618+08:00","level":"INFO","msg":"Starting system monitor"}
