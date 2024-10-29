@@ -20,3 +20,5 @@ HW1/task3/ws353simrel.tar.gz
 
 # 忽略 code_on_server 目录下的所有 wandb 文件夹
 HW1/task3/code_on_server/**/wandb
+HW2/task2/wandb
+HW2/task3/wandb
