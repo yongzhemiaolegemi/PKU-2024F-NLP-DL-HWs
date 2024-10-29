@@ -1,0 +1,20 @@
+{"time":"2024-10-29T23:57:58.535850346+08:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-29T23:57:58.535868382+08:00","level":"INFO","msg":"created symlink","path":"/root/HW2/task3/wandb/run-20241029_235758-t69wzcg5/logs/debug-core.log"}
+{"time":"2024-10-29T23:57:58.65437147+08:00","level":"INFO","msg":"created new stream","id":"t69wzcg5"}
+{"time":"2024-10-29T23:57:58.654852198+08:00","level":"INFO","msg":"stream: started","id":"t69wzcg5"}
+{"time":"2024-10-29T23:57:58.654897061+08:00","level":"INFO","msg":"sender: started","stream_id":"t69wzcg5"}
+{"time":"2024-10-29T23:57:58.654875173+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"t69wzcg5"}}
+{"time":"2024-10-29T23:57:58.654907759+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"t69wzcg5"}}
+{"time":"2024-10-29T23:57:59.592622979+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-29T23:59:56.678096251+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-29T23:59:56.678744803+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-29T23:59:57.678622889+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.998390948}],"total_operations":1}}
+{"time":"2024-10-29T23:59:58.707577957+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-29T23:59:58.707613057+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-29T23:59:58.707624527+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-29T23:59:59.570186736+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-30T00:00:02.485451541+08:00","level":"INFO","msg":"stream: closing","id":"t69wzcg5"}
+{"time":"2024-10-30T00:00:02.485498857+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"t69wzcg5"}}
+{"time":"2024-10-30T00:00:02.485539332+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"t69wzcg5"}}
+{"time":"2024-10-30T00:00:02.485582539+08:00","level":"INFO","msg":"sender: closed","stream_id":"t69wzcg5"}
+{"time":"2024-10-30T00:00:02.485774425+08:00","level":"INFO","msg":"stream: closed","id":"t69wzcg5"}

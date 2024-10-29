@@ -1,0 +1,15 @@
+2024-10-29 11:10:46 - INFO - __main__ - Initializing training script
+2024-10-29 11:10:46 - INFO - __main__ - Loading dataset...
+2024-10-29 11:10:46 - INFO - __main__ - Loading model and tokenizer...
+Traceback (most recent call last):
+  File "/root/HW2/task3/train.py", line 77, in <module>
+    model = RobertaForSequenceClassificationWithAdapters.from_pretrained("roberta-base", config=config)
+  File "/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4224, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4784, in _load_pretrained_model
+    raise RuntimeError(f"Error(s) in loading state_dict for {model.__class__.__name__}:\n\t{error_msg}")
+RuntimeError: Error(s) in loading state_dict for RobertaForSequenceClassificationWithAdapters:
+	size mismatch for roberta.embeddings.word_embeddings.weight: copying a param with shape torch.Size([50265, 768]) from checkpoint, the shape in current model is torch.Size([30522, 768]).
+	size mismatch for roberta.embeddings.position_embeddings.weight: copying a param with shape torch.Size([514, 768]) from checkpoint, the shape in current model is torch.Size([512, 768]).
+	size mismatch for roberta.embeddings.token_type_embeddings.weight: copying a param with shape torch.Size([1, 768]) from checkpoint, the shape in current model is torch.Size([2, 768]).
+	You may consider adding `ignore_mismatched_sizes=True` in the model `from_pretrained` method.

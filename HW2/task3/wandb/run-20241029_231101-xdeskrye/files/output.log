@@ -1,0 +1,36 @@
+2024-10-29 23:11:02 - INFO - __main__ - Initializing training script
+2024-10-29 23:11:02 - INFO - __main__ - Loading dataset...
+2024-10-29 23:11:02 - INFO - __main__ - Loading model and tokenizer...
+Some weights of RobertaForSequenceClassificationWithAdapters were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight', 'roberta.encoder.layer.0.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.0.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.0.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.0.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.0.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.0.output.adapter_before_ffn.down_project.weight', 'roberta.encoder.layer.0.output.adapter_before_ffn.up_project.bias', 'roberta.encoder.layer.0.output.adapter_before_ffn.up_project.weight', 'roberta.encoder.layer.1.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.1.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.1.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.1.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.1.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.1.output.adapter_before_ffn.down_project.weight', 'roberta.encoder.layer.1.output.adapter_before_ffn.up_project.bias', 'roberta.encoder.layer.1.output.adapter_before_ffn.up_project.weight', 'roberta.encoder.layer.10.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.10.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.10.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.10.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.10.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.10.output.adapter_before_ffn.down_project.weight', 'roberta.encoder.layer.10.output.adapter_before_ffn.up_project.bias', 'roberta.encoder.layer.10.output.adapter_before_ffn.up_project.weight', 'roberta.encoder.layer.11.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.11.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.11.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.11.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.11.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.11.output.adapter_before_ffn.down_project.weight', 'roberta.encoder.layer.11.output.adapter_before_ffn.up_project.bias', 'roberta.encoder.layer.11.output.adapter_before_ffn.up_project.weight', 'roberta.encoder.layer.2.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.2.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.2.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.2.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.2.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.2.output.adapter_before_ffn.down_project.weight', 'roberta.encoder.layer.2.output.adapter_before_ffn.up_project.bias', 'roberta.encoder.layer.2.output.adapter_before_ffn.up_project.weight', 'roberta.encoder.layer.3.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.3.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.3.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.3.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.3.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.3.output.adapter_before_ffn.down_project.weight', 'roberta.encoder.layer.3.output.adapter_before_ffn.up_project.bias', 'roberta.encoder.layer.3.output.adapter_before_ffn.up_project.weight', 'roberta.encoder.layer.4.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.4.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.4.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.4.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.4.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.4.output.adapter_before_ffn.down_project.weight', 'roberta.e
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100%|██████████████████████████████████████████████████████████████████████████| 3452/3452 [00:00<00:00, 17560.86 examples/s]
+Map: 100%|██████████████████████████████████████████████████████████████████████████| 1120/1120 [00:00<00:00, 15580.62 examples/s]
+/root/HW2/task3/train.py:106: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+2024-10-29 23:11:08 - INFO - __main__ - Starting training...
+  0%|                                                                                                     | 0/648 [00:00<?, ?it/s]/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/transformers/modeling_utils.py:1160: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/root/HW2/task3/train.py", line 120, in <module>
+    trainer.train()
+  File "/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/transformers/trainer.py", line 2122, in train
+    return inner_training_loop(
+  File "/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/transformers/trainer.py", line 2474, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/transformers/trainer.py", line 3572, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/transformers/trainer.py", line 3625, in compute_loss
+    outputs = model(**inputs)
+  File "/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/HW2/task3/model.py", line 74, in forward
+    ffn_output = layer.output.dense(attention_output)
+  File "/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (2048x768 and 3072x768)

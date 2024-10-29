@@ -1,0 +1,61 @@
+2024-10-29 10:33:42 - INFO - __main__ - Initializing training script
+2024-10-29 10:33:42 - INFO - __main__ - Loading dataset...
+2024-10-29 10:33:42 - INFO - __main__ - Loading model and tokenizer...
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100%|██████████████████████████████████████████████████████████████████████████| 3452/3452 [00:00<00:00, 17248.85 examples/s]
+Map: 100%|██████████████████████████████████████████████████████████████████████████| 1120/1120 [00:00<00:00, 15124.68 examples/s]
+/root/HW2/task2/train.py:101: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+2024-10-29 10:33:48 - INFO - __main__ - Starting training...
+  0%|                                                                                                     | 0/324 [00:00<?, ?it/s]/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn(
+ 33%|██████████████████████████████▎                                                            | 108/324 [00:23<00:38,  5.57it/s]/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 1.038, 'grad_norm': 1.810762882232666, 'learning_rate': 4.845679012345679e-05, 'epoch': 0.09}
+{'loss': 0.8356, 'grad_norm': 3.3246009349823, 'learning_rate': 4.691358024691358e-05, 'epoch': 0.19}
+{'loss': 0.7595, 'grad_norm': 4.9760894775390625, 'learning_rate': 4.5370370370370374e-05, 'epoch': 0.28}
+{'loss': 0.7326, 'grad_norm': 3.053832530975342, 'learning_rate': 4.3827160493827164e-05, 'epoch': 0.37}
+{'loss': 0.6516, 'grad_norm': 3.488527536392212, 'learning_rate': 4.2283950617283955e-05, 'epoch': 0.46}
+{'loss': 0.6517, 'grad_norm': 5.853974342346191, 'learning_rate': 4.074074074074074e-05, 'epoch': 0.56}
+{'loss': 0.6849, 'grad_norm': 6.622661113739014, 'learning_rate': 3.9197530864197535e-05, 'epoch': 0.65}
+{'loss': 0.6363, 'grad_norm': 6.226332664489746, 'learning_rate': 3.7654320987654326e-05, 'epoch': 0.74}
+{'loss': 0.5421, 'grad_norm': 4.384626865386963, 'learning_rate': 3.611111111111111e-05, 'epoch': 0.83}
+{'loss': 0.5871, 'grad_norm': 4.1908440589904785, 'learning_rate': 3.45679012345679e-05, 'epoch': 0.93}
+  warnings.warn(                                                                                                                  
+{'eval_loss': 0.49781373143196106, 'eval_accuracy': 0.8044642857142857, 'eval_micro_f1': 0.8044642857142857, 'eval_macro_f1': 0.6798158544637417, 'eval_runtime': 2.7711, 'eval_samples_per_second': 404.169, 'eval_steps_per_second': 12.63, 'epoch': 1.0}
+ 67%|████████████████████████████████████████████████████████████▋                              | 216/324 [00:45<00:18,  5.76it/s]/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.6428, 'grad_norm': 2.8797762393951416, 'learning_rate': 3.30246913580247e-05, 'epoch': 1.02}
+{'loss': 0.4549, 'grad_norm': 3.7631945610046387, 'learning_rate': 3.148148148148148e-05, 'epoch': 1.11}
+{'loss': 0.4995, 'grad_norm': 6.657251358032227, 'learning_rate': 2.993827160493827e-05, 'epoch': 1.2}
+{'loss': 0.3824, 'grad_norm': 5.051978588104248, 'learning_rate': 2.839506172839506e-05, 'epoch': 1.3}
+{'loss': 0.3494, 'grad_norm': 9.306729316711426, 'learning_rate': 2.6851851851851855e-05, 'epoch': 1.39}
+{'loss': 0.3716, 'grad_norm': 4.939516067504883, 'learning_rate': 2.5308641975308646e-05, 'epoch': 1.48}
+{'loss': 0.4905, 'grad_norm': 4.552483081817627, 'learning_rate': 2.3765432098765433e-05, 'epoch': 1.57}
+{'loss': 0.4467, 'grad_norm': 4.138396739959717, 'learning_rate': 2.2222222222222223e-05, 'epoch': 1.67}
+{'loss': 0.3635, 'grad_norm': 4.472491264343262, 'learning_rate': 2.0679012345679014e-05, 'epoch': 1.76}
+{'loss': 0.4678, 'grad_norm': 5.741849422454834, 'learning_rate': 1.91358024691358e-05, 'epoch': 1.85}
+{'loss': 0.3989, 'grad_norm': 6.852930545806885, 'learning_rate': 1.7592592592592595e-05, 'epoch': 1.94}
+  warnings.warn(                                                                                                                  
+{'eval_loss': 0.4457643926143646, 'eval_accuracy': 0.8214285714285714, 'eval_micro_f1': 0.8214285714285714, 'eval_macro_f1': 0.7172757475083057, 'eval_runtime': 2.5625, 'eval_samples_per_second': 437.08, 'eval_steps_per_second': 13.659, 'epoch': 2.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 324/324 [01:05<00:00,  5.55it/s]/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+{'loss': 0.3529, 'grad_norm': 4.870823383331299, 'learning_rate': 1.604938271604938e-05, 'epoch': 2.04}
+{'loss': 0.2416, 'grad_norm': 7.197674751281738, 'learning_rate': 1.4506172839506174e-05, 'epoch': 2.13}
+{'loss': 0.2708, 'grad_norm': 3.7026424407958984, 'learning_rate': 1.2962962962962962e-05, 'epoch': 2.22}
+{'loss': 0.2359, 'grad_norm': 2.22159481048584, 'learning_rate': 1.1419753086419753e-05, 'epoch': 2.31}
+{'loss': 0.2711, 'grad_norm': 4.195045471191406, 'learning_rate': 9.876543209876543e-06, 'epoch': 2.41}
+{'loss': 0.2956, 'grad_norm': 9.591710090637207, 'learning_rate': 8.333333333333334e-06, 'epoch': 2.5}
+{'loss': 0.2556, 'grad_norm': 6.195774555206299, 'learning_rate': 6.790123456790123e-06, 'epoch': 2.59}
+{'loss': 0.2325, 'grad_norm': 11.051107406616211, 'learning_rate': 5.246913580246914e-06, 'epoch': 2.69}
+{'loss': 0.311, 'grad_norm': 4.42319393157959, 'learning_rate': 3.7037037037037037e-06, 'epoch': 2.78}
+{'loss': 0.207, 'grad_norm': 3.5512752532958984, 'learning_rate': 2.1604938271604937e-06, 'epoch': 2.87}
+{'loss': 0.2975, 'grad_norm': 6.056338310241699, 'learning_rate': 6.17283950617284e-07, 'epoch': 2.96}
+  warnings.warn(
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 324/324 [01:10<00:00,  4.60it/s]
+2024-10-29 10:34:59 - INFO - __main__ - Starting evaluation...                                                                    
+{'eval_loss': 0.4568692445755005, 'eval_accuracy': 0.8375, 'eval_micro_f1': 0.8375, 'eval_macro_f1': 0.7557688619233426, 'eval_runtime': 2.5561, 'eval_samples_per_second': 438.168, 'eval_steps_per_second': 13.693, 'epoch': 3.0}
+{'train_runtime': 70.4062, 'train_samples_per_second': 147.089, 'train_steps_per_second': 4.602, 'train_loss': 0.46541137165493435, 'epoch': 3.0}
+/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:71: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn(
+100%|█████████████████████████████████████████████████████████████████████████████████████████████| 35/35 [00:02<00:00, 13.88it/s]
+2024-10-29 10:35:01 - INFO - __main__ - Evaluation results: {'eval_loss': 0.4568692445755005, 'eval_accuracy': 0.8375, 'eval_micro_f1': 0.8375, 'eval_macro_f1': 0.7557688619233426, 'eval_runtime': 2.6002, 'eval_samples_per_second': 430.735, 'eval_steps_per_second': 13.46, 'epoch': 3.0}
+2024-10-29 10:35:01 - INFO - __main__ - Training complete.

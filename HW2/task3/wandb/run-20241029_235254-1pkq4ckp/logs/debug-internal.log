@@ -1,0 +1,20 @@
+{"time":"2024-10-29T23:52:54.605648885+08:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-29T23:52:54.605687494+08:00","level":"INFO","msg":"created symlink","path":"/root/HW2/task3/wandb/run-20241029_235254-1pkq4ckp/logs/debug-core.log"}
+{"time":"2024-10-29T23:52:54.725060276+08:00","level":"INFO","msg":"created new stream","id":"1pkq4ckp"}
+{"time":"2024-10-29T23:52:54.725146905+08:00","level":"INFO","msg":"stream: started","id":"1pkq4ckp"}
+{"time":"2024-10-29T23:52:54.72518441+08:00","level":"INFO","msg":"sender: started","stream_id":"1pkq4ckp"}
+{"time":"2024-10-29T23:52:54.725196542+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"1pkq4ckp"}}
+{"time":"2024-10-29T23:52:54.725181476+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"1pkq4ckp"}}
+{"time":"2024-10-29T23:52:55.480146893+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-29T23:54:03.124206812+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-29T23:54:03.125118444+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-29T23:54:03.397378412+08:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-29T23:54:03.397420082+08:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-29T23:54:03.397431108+08:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-29T23:54:04.124836827+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.608647116,"progress":"614B/614B"},{"desc":"uploading config.yaml","runtime_seconds":0.451950671,"progress":"9.7KB/9.7KB"},{"desc":"uploading output.log","runtime_seconds":0.451935282,"progress":"16.2KB/16.2KB"}],"total_operations":3}}
+{"time":"2024-10-29T23:54:04.468698882+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-29T23:54:07.082427145+08:00","level":"INFO","msg":"stream: closing","id":"1pkq4ckp"}
+{"time":"2024-10-29T23:54:07.082461424+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"1pkq4ckp"}}
+{"time":"2024-10-29T23:54:07.082491194+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"1pkq4ckp"}}
+{"time":"2024-10-29T23:54:07.08251189+08:00","level":"INFO","msg":"sender: closed","stream_id":"1pkq4ckp"}
+{"time":"2024-10-29T23:54:07.08262236+08:00","level":"INFO","msg":"stream: closed","id":"1pkq4ckp"}

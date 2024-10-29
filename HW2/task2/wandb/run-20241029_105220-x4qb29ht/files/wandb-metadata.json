@@ -1,0 +1,71 @@
+{
+  "os":  "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+  "python":  "3.10.0",
+  "startedAt":  "2024-10-29T02:52:20.032204Z",
+  "args":  [
+    "--model_name_or_path",
+    "bert-base-uncased",
+    "--output_dir",
+    "./results/bert-base-uncased_agnews_sup_run4",
+    "--do_train",
+    "--do_eval",
+    "--evaluation_strategy",
+    "epoch",
+    "--logging_strategy",
+    "steps",
+    "--logging_steps",
+    "10",
+    "--per_device_train_batch_size",
+    "16",
+    "--per_device_eval_batch_size",
+    "16",
+    "--num_train_epochs",
+    "3",
+    "--seed",
+    "42",
+    "--dataset",
+    "agnews_sup",
+    "--report_to",
+    "wandb"
+  ],
+  "program":  "/root/HW2/task2/train.py",
+  "codePath":  "train.py",
+  "email":  "chenxinyu20040529@gmail.com",
+  "root":  "/root/HW2/task2",
+  "host":  "autodl-container-71b04c9458-1ab17933",
+  "username":  "root",
+  "executable":  "/root/miniconda3/envs/pytorch/bin/python",
+  "codePathLocal":  "train.py",
+  "cpu_count":  64,
+  "cpu_count_logical":  128,
+  "gpu":  "NVIDIA GeForce RTX 3080",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "32212254720",
+      "used":  "21816082432"
+    }
+  },
+  "memory":  {
+    "total":  "540639293440"
+  },
+  "cpu":  {
+    "count":  64,
+    "countLogical":  128
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3080",
+      "memoryTotal":  "21474836480",
+      "cudaCores":  8704,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA GeForce RTX 3080",
+      "memoryTotal":  "21474836480",
+      "cudaCores":  8704,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.4"
+}

@@ -1,0 +1,16 @@
+{"time":"2024-10-29T10:31:38.800466902+08:00","level":"INFO","msg":"started logging, with flags","port-filename":"/tmp/tmp023lxm93/port-31955.txt","pid":31955,"debug":false,"disable-analytics":false}
+{"time":"2024-10-29T10:31:38.80050219+08:00","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-10-29T10:31:39.159825902+08:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":43753,"Zone":""}}
+{"time":"2024-10-29T10:31:39.159874902+08:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":31955}
+{"time":"2024-10-29T10:31:39.188822752+08:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:45542"}
+{"time":"2024-10-29T10:31:40.430930652+08:00","level":"INFO","msg":"handleInformInit: received","streamId":"13cphz0p","id":"127.0.0.1:45542"}
+{"time":"2024-10-29T10:31:40.540682807+08:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"13cphz0p","id":"127.0.0.1:45542"}
+{"time":"2024-10-29T10:33:35.122250069+08:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"13cphz0p","id":"127.0.0.1:45542"}
+{"time":"2024-10-29T10:33:35.122602825+08:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"13cphz0p","id":"127.0.0.1:45542"}
+{"time":"2024-10-29T10:33:35.165172974+08:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:45542"}
+{"time":"2024-10-29T10:33:35.16524021+08:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:45542"}
+{"time":"2024-10-29T10:33:35.165257904+08:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2024-10-29T10:33:35.16528216+08:00","level":"INFO","msg":"connection: Close: initiating connection closure","id":"127.0.0.1:45542"}
+{"time":"2024-10-29T10:33:35.165445754+08:00","level":"INFO","msg":"connection: Close: connection successfully closed","id":"127.0.0.1:45542"}
+{"time":"2024-10-29T10:33:35.165464602+08:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:45542"}
+{"time":"2024-10-29T10:33:35.165483071+08:00","level":"INFO","msg":"server is closed"}

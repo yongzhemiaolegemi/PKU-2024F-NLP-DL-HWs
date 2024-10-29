@@ -1,0 +1,16 @@
+{"time":"2024-10-29T01:03:27.5368471+08:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-29T01:03:27.5368471+08:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\18519\\Desktop\\2024F NLP-DL\\HWs\\HW2\\task2\\wandb\\run-20241029_010327-o4pwnsu2\\logs\\debug-core.log"}
+{"time":"2024-10-29T01:03:28.1060774+08:00","level":"INFO","msg":"created new stream","id":"o4pwnsu2"}
+{"time":"2024-10-29T01:03:28.1060774+08:00","level":"INFO","msg":"stream: started","id":"o4pwnsu2"}
+{"time":"2024-10-29T01:03:28.1060774+08:00","level":"INFO","msg":"sender: started","stream_id":"o4pwnsu2"}
+{"time":"2024-10-29T01:03:28.1060774+08:00","level":"INFO","msg":"handler: started","stream_id":{"value":"o4pwnsu2"}}
+{"time":"2024-10-29T01:03:28.1060774+08:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"o4pwnsu2"}}
+{"time":"2024-10-29T01:03:29.2766936+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-29T01:03:29.816857+08:00","level":"INFO","msg":"stream: closing","id":"o4pwnsu2"}
+{"time":"2024-10-29T01:03:29.816857+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-29T01:03:29.8177793+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-29T01:03:34.8843815+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-29T01:03:35.8966838+08:00","level":"INFO","msg":"sender: closed","stream_id":"o4pwnsu2"}
+{"time":"2024-10-29T01:03:35.8966838+08:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"o4pwnsu2"}}
+{"time":"2024-10-29T01:03:35.8966838+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"o4pwnsu2"}}
+{"time":"2024-10-29T01:03:35.897192+08:00","level":"INFO","msg":"stream: closed","id":"o4pwnsu2"}

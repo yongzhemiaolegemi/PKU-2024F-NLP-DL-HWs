@@ -1,0 +1,95 @@
+2024-10-29 23:52:55 - INFO - __main__ - Initializing training script
+2024-10-29 23:52:55 - INFO - __main__ - Loading dataset...
+2024-10-29 23:52:55 - INFO - __main__ - Loading model and tokenizer...
+Some weights of RobertaForSequenceClassificationWithAdapters were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight', 'roberta.encoder.layer.0.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.0.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.0.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.0.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.0.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.0.output.adapter_before_ffn.down_project.weight', 'roberta.encoder.layer.0.output.adapter_before_ffn.up_project.bias', 'roberta.encoder.layer.0.output.adapter_before_ffn.up_project.weight', 'roberta.encoder.layer.1.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.1.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.1.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.1.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.1.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.1.output.adapter_before_ffn.down_project.weight', 'roberta.encoder.layer.1.output.adapter_before_ffn.up_project.bias', 'roberta.encoder.layer.1.output.adapter_before_ffn.up_project.weight', 'roberta.encoder.layer.10.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.10.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.10.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.10.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.10.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.10.output.adapter_before_ffn.down_project.weight', 'roberta.encoder.layer.10.output.adapter_before_ffn.up_project.bias', 'roberta.encoder.layer.10.output.adapter_before_ffn.up_project.weight', 'roberta.encoder.layer.11.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.11.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.11.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.11.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.11.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.11.output.adapter_before_ffn.down_project.weight', 'roberta.encoder.layer.11.output.adapter_before_ffn.up_project.bias', 'roberta.encoder.layer.11.output.adapter_before_ffn.up_project.weight', 'roberta.encoder.layer.2.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.2.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.2.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.2.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.2.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.2.output.adapter_before_ffn.down_project.weight', 'roberta.encoder.layer.2.output.adapter_before_ffn.up_project.bias', 'roberta.encoder.layer.2.output.adapter_before_ffn.up_project.weight', 'roberta.encoder.layer.3.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.3.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.3.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.3.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.3.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.3.output.adapter_before_ffn.down_project.weight', 'roberta.encoder.layer.3.output.adapter_before_ffn.up_project.bias', 'roberta.encoder.layer.3.output.adapter_before_ffn.up_project.weight', 'roberta.encoder.layer.4.output.adapter_after_ffn.down_project.bias', 'roberta.encoder.layer.4.output.adapter_after_ffn.down_project.weight', 'roberta.encoder.layer.4.output.adapter_after_ffn.up_project.bias', 'roberta.encoder.layer.4.output.adapter_after_ffn.up_project.weight', 'roberta.encoder.layer.4.output.adapter_before_ffn.down_project.bias', 'roberta.encoder.layer.4.output.adapter_before_ffn.down_project.weight', 'roberta.e
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Map: 100%|██████████████████████████████████████████████████████████████████████████| 3452/3452 [00:00<00:00, 13763.93 examples/s]
+Map: 100%|██████████████████████████████████████████████████████████████████████████| 1120/1120 [00:00<00:00, 12364.14 examples/s]
+/root/HW2/task3/train.py:106: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+2024-10-29 23:53:03 - INFO - __main__ - Starting training...
+  0%|                                                                                                     | 0/648 [00:00<?, ?it/s]/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/transformers/modeling_utils.py:1160: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+ 33%|██████████████████████████████▎                                                            | 216/648 [00:18<00:31, 13.85it/s]/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/transformers/modeling_utils.py:1160: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+{'loss': 1.0343, 'grad_norm': 1.9079983234405518, 'learning_rate': 9.84567901234568e-05, 'epoch': 0.05}
+{'loss': 0.973, 'grad_norm': 2.131950616836548, 'learning_rate': 9.691358024691359e-05, 'epoch': 0.09}
+{'loss': 0.9035, 'grad_norm': 0.9241597652435303, 'learning_rate': 9.537037037037038e-05, 'epoch': 0.14}
+{'loss': 0.8936, 'grad_norm': 1.8366074562072754, 'learning_rate': 9.382716049382717e-05, 'epoch': 0.19}
+{'loss': 0.7832, 'grad_norm': 2.860583543777466, 'learning_rate': 9.228395061728396e-05, 'epoch': 0.23}
+{'loss': 0.7462, 'grad_norm': 3.746009111404419, 'learning_rate': 9.074074074074075e-05, 'epoch': 0.28}
+{'loss': 0.6998, 'grad_norm': 5.301312446594238, 'learning_rate': 8.919753086419754e-05, 'epoch': 0.32}
+{'loss': 0.6574, 'grad_norm': 2.745734691619873, 'learning_rate': 8.765432098765433e-05, 'epoch': 0.37}
+{'loss': 0.6319, 'grad_norm': 2.3331735134124756, 'learning_rate': 8.611111111111112e-05, 'epoch': 0.42}
+{'loss': 0.5185, 'grad_norm': 13.756293296813965, 'learning_rate': 8.456790123456791e-05, 'epoch': 0.46}
+{'loss': 0.8741, 'grad_norm': 4.248723983764648, 'learning_rate': 8.30246913580247e-05, 'epoch': 0.51}
+{'loss': 0.6337, 'grad_norm': 2.5988242626190186, 'learning_rate': 8.148148148148148e-05, 'epoch': 0.56}
+{'loss': 0.5837, 'grad_norm': 15.517558097839355, 'learning_rate': 7.993827160493828e-05, 'epoch': 0.6}
+{'loss': 0.6832, 'grad_norm': 16.033042907714844, 'learning_rate': 7.839506172839507e-05, 'epoch': 0.65}
+{'loss': 0.6315, 'grad_norm': 7.761318206787109, 'learning_rate': 7.685185185185185e-05, 'epoch': 0.69}
+{'loss': 0.5772, 'grad_norm': 9.757150650024414, 'learning_rate': 7.530864197530865e-05, 'epoch': 0.74}
+{'loss': 0.4322, 'grad_norm': 4.356750965118408, 'learning_rate': 7.376543209876543e-05, 'epoch': 0.79}
+{'loss': 0.5362, 'grad_norm': 7.46840238571167, 'learning_rate': 7.222222222222222e-05, 'epoch': 0.83}
+{'loss': 0.6657, 'grad_norm': 13.077432632446289, 'learning_rate': 7.067901234567902e-05, 'epoch': 0.88}
+{'loss': 0.5, 'grad_norm': 5.977837085723877, 'learning_rate': 6.91358024691358e-05, 'epoch': 0.93}
+{'loss': 0.5172, 'grad_norm': 4.953232765197754, 'learning_rate': 6.759259259259259e-05, 'epoch': 0.97}
+  warnings.warn(                                                                                                                  
+{'eval_loss': 0.40018898248672485, 'eval_accuracy': 0.8446428571428571, 'eval_micro_f1': 0.8446428571428571, 'eval_macro_f1': 0.7592959977460421, 'eval_runtime': 2.5527, 'eval_samples_per_second': 438.755, 'eval_steps_per_second': 27.422, 'epoch': 1.0}
+ 67%|████████████████████████████████████████████████████████████▋                              | 432/648 [00:37<00:15, 13.76it/s]/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/transformers/modeling_utils.py:1160: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+{'loss': 0.5633, 'grad_norm': 3.9924228191375732, 'learning_rate': 6.60493827160494e-05, 'epoch': 1.02}
+{'loss': 0.3901, 'grad_norm': 3.196986436843872, 'learning_rate': 6.450617283950617e-05, 'epoch': 1.06}
+{'loss': 0.3961, 'grad_norm': 6.654343605041504, 'learning_rate': 6.296296296296296e-05, 'epoch': 1.11}
+{'loss': 0.4861, 'grad_norm': 8.904838562011719, 'learning_rate': 6.141975308641975e-05, 'epoch': 1.16}
+{'loss': 0.5317, 'grad_norm': 11.798765182495117, 'learning_rate': 5.987654320987654e-05, 'epoch': 1.2}
+{'loss': 0.3286, 'grad_norm': 3.975693702697754, 'learning_rate': 5.833333333333334e-05, 'epoch': 1.25}
+{'loss': 0.5253, 'grad_norm': 4.133056640625, 'learning_rate': 5.679012345679012e-05, 'epoch': 1.3}
+{'loss': 0.4249, 'grad_norm': 3.121492862701416, 'learning_rate': 5.524691358024692e-05, 'epoch': 1.34}
+{'loss': 0.4945, 'grad_norm': 5.426360607147217, 'learning_rate': 5.370370370370371e-05, 'epoch': 1.39}
+{'loss': 0.5618, 'grad_norm': 5.215375900268555, 'learning_rate': 5.2160493827160494e-05, 'epoch': 1.44}
+{'loss': 0.4259, 'grad_norm': 4.823479175567627, 'learning_rate': 5.061728395061729e-05, 'epoch': 1.48}
+{'loss': 0.482, 'grad_norm': 6.135603904724121, 'learning_rate': 4.9074074074074075e-05, 'epoch': 1.53}
+{'loss': 0.4737, 'grad_norm': 2.6955902576446533, 'learning_rate': 4.7530864197530866e-05, 'epoch': 1.57}
+{'loss': 0.3464, 'grad_norm': 5.931366920471191, 'learning_rate': 4.5987654320987656e-05, 'epoch': 1.62}
+{'loss': 0.4721, 'grad_norm': 9.746587753295898, 'learning_rate': 4.4444444444444447e-05, 'epoch': 1.67}
+{'loss': 0.511, 'grad_norm': 6.324865341186523, 'learning_rate': 4.290123456790124e-05, 'epoch': 1.71}
+{'loss': 0.4766, 'grad_norm': 6.602077007293701, 'learning_rate': 4.135802469135803e-05, 'epoch': 1.76}
+{'loss': 0.4544, 'grad_norm': 8.533849716186523, 'learning_rate': 3.981481481481482e-05, 'epoch': 1.81}
+{'loss': 0.4479, 'grad_norm': 3.8013832569122314, 'learning_rate': 3.82716049382716e-05, 'epoch': 1.85}
+{'loss': 0.4198, 'grad_norm': 6.508395671844482, 'learning_rate': 3.67283950617284e-05, 'epoch': 1.9}
+{'loss': 0.5383, 'grad_norm': 7.38157844543457, 'learning_rate': 3.518518518518519e-05, 'epoch': 1.94}
+{'loss': 0.4867, 'grad_norm': 6.520567417144775, 'learning_rate': 3.364197530864198e-05, 'epoch': 1.99}
+  warnings.warn(                                                                                                                  
+{'eval_loss': 0.41254493594169617, 'eval_accuracy': 0.8392857142857143, 'eval_micro_f1': 0.8392857142857143, 'eval_macro_f1': 0.7179346686070717, 'eval_runtime': 2.5516, 'eval_samples_per_second': 438.936, 'eval_steps_per_second': 27.434, 'epoch': 2.0}
+ 77%|██████████████████████████████████████████████████████████████████████▏                    | 500/648 [00:42<00:10, 13.80it/s]/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/transformers/modeling_utils.py:1160: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+{'loss': 0.4117, 'grad_norm': 4.494395732879639, 'learning_rate': 3.209876543209876e-05, 'epoch': 2.04}
+{'loss': 0.3775, 'grad_norm': 8.405054092407227, 'learning_rate': 3.055555555555556e-05, 'epoch': 2.08}
+{'loss': 0.3997, 'grad_norm': 10.42864990234375, 'learning_rate': 2.9012345679012347e-05, 'epoch': 2.13}
+{'loss': 0.3559, 'grad_norm': 7.56373405456543, 'learning_rate': 2.7469135802469138e-05, 'epoch': 2.18}
+{'loss': 0.4818, 'grad_norm': 9.956524848937988, 'learning_rate': 2.5925925925925925e-05, 'epoch': 2.22}
+{'loss': 0.4078, 'grad_norm': 6.650367259979248, 'learning_rate': 2.438271604938272e-05, 'epoch': 2.27}
+{'loss': 0.3658, 'grad_norm': 10.0014009475708, 'learning_rate': 2.2839506172839506e-05, 'epoch': 2.31}
+  warnings.warn(
+100%|██████████████████████████████████████████████████████████████████████████████████████████▊| 647/648 [00:53<00:00, 13.93it/s]/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/transformers/modeling_utils.py:1160: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+{'loss': 0.3269, 'grad_norm': 12.164149284362793, 'learning_rate': 2.1296296296296296e-05, 'epoch': 2.36}
+{'loss': 0.2757, 'grad_norm': 2.970611572265625, 'learning_rate': 1.9753086419753087e-05, 'epoch': 2.41}
+{'loss': 0.4185, 'grad_norm': 6.9831862449646, 'learning_rate': 1.8209876543209877e-05, 'epoch': 2.45}
+{'loss': 0.3564, 'grad_norm': 5.185583591461182, 'learning_rate': 1.6666666666666667e-05, 'epoch': 2.5}
+{'loss': 0.4552, 'grad_norm': 5.499309539794922, 'learning_rate': 1.5123456790123458e-05, 'epoch': 2.55}
+{'loss': 0.4279, 'grad_norm': 6.8780083656311035, 'learning_rate': 1.3580246913580247e-05, 'epoch': 2.59}
+{'loss': 0.3433, 'grad_norm': 15.245380401611328, 'learning_rate': 1.2037037037037037e-05, 'epoch': 2.64}
+{'loss': 0.3861, 'grad_norm': 3.9453225135803223, 'learning_rate': 1.0493827160493827e-05, 'epoch': 2.69}
+{'loss': 0.4077, 'grad_norm': 7.110768795013428, 'learning_rate': 8.950617283950618e-06, 'epoch': 2.73}
+{'loss': 0.2963, 'grad_norm': 6.169599533081055, 'learning_rate': 7.4074074074074075e-06, 'epoch': 2.78}
+{'loss': 0.4018, 'grad_norm': 7.0927815437316895, 'learning_rate': 5.864197530864198e-06, 'epoch': 2.82}
+{'loss': 0.4802, 'grad_norm': 4.3874664306640625, 'learning_rate': 4.3209876543209875e-06, 'epoch': 2.87}
+{'loss': 0.4603, 'grad_norm': 7.914453983306885, 'learning_rate': 2.777777777777778e-06, 'epoch': 2.92}
+{'loss': 0.3629, 'grad_norm': 5.685275554656982, 'learning_rate': 1.234567901234568e-06, 'epoch': 2.96}
+  warnings.warn(
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 648/648 [00:57<00:00, 11.36it/s]
+2024-10-29 23:54:00 - INFO - __main__ - Starting evaluation...                                                                    
+{'eval_loss': 0.4223693311214447, 'eval_accuracy': 0.8455357142857143, 'eval_micro_f1': 0.8455357142857143, 'eval_macro_f1': 0.746302218002809, 'eval_runtime': 2.5398, 'eval_samples_per_second': 440.98, 'eval_steps_per_second': 27.561, 'epoch': 3.0}
+{'train_runtime': 57.0695, 'train_samples_per_second': 181.463, 'train_steps_per_second': 11.355, 'train_loss': 0.5132583545313941, 'epoch': 3.0}
+/root/miniconda3/envs/pytorch/lib/python3.10/site-packages/transformers/modeling_utils.py:1160: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+100%|█████████████████████████████████████████████████████████████████████████████████████████████| 70/70 [00:02<00:00, 28.45it/s]
+2024-10-29 23:54:03 - INFO - __main__ - Evaluation results: {'eval_loss': 0.4223693311214447, 'eval_accuracy': 0.8455357142857143, 'eval_micro_f1': 0.8455357142857143, 'eval_macro_f1': 0.746302218002809, 'eval_runtime': 2.4974, 'eval_samples_per_second': 448.463, 'eval_steps_per_second': 28.029, 'epoch': 3.0}
+2024-10-29 23:54:03 - INFO - __main__ - Training complete.
